@@ -1,0 +1,44 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: darkcyan;
+    font-family: "Jacquarda Bastarda 9";
+    text-decoration: underline
+}
+
+ul {
+    list-style: square;
+    font-size: 1.5rem;
+    color: plum;
+    font-family: "Bebas Neue", sans-serif;
+    ;
+
+}
+
+a {
+    font-size: 2.5rem;
+    color: turquoise
+}
+
+ol {
+    font-size: 2.5rem;
+    color: plum
+}
+
+p {
+    font-size: 3rem;
+    /* font-family: 'Heebo', sans-serif; */
+    /* font-family: "IBM Plex Sans Arabic", sans-serif; */
+    font-family: "Bebas Neue", sans-serif;
+    ;
+}
+
+h2 {
+    color: brown;
+    font-size: 2.5rem;
+    font-family: "Heebo";
+}
