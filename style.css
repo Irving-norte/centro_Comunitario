@@ -1,0 +1,75 @@
+.logo img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: auto;
+}
+h1{
+    color: #4a6a4c;
+    font-size: 2em;
+    font-family: sans-serif;
+    padding-left: 80px;
+    text-align-last: left;
+    
+    border-bottom: dotted 10px #cdb0a5;
+} 
+
+.imagen1{
+    display: flex;
+    align-items: left;
+    height: 100%;
+    
+}
+
+.txtimg1 {
+    display: flex;
+    align-items: center; /* Alinea verticalmente la imagen y el texto */
+    gap: 20px; /* Espacio entre la imagen y el texto */
+}
+
+h2{
+    color: #Af5720;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align-last: center;
+} 
+
+p{
+   font-size: 20px; 
+   font-family: Lucida Sans;
+   text-align-last: center;
+}
+
+
+table{
+    width: 25%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+thead{
+    background-color: #3f541f;
+}
+
+th, td{
+    padding: 12px 15px;
+    border:1px solid #ddd;
+}
+
+th{
+    background-color: #4caf50;
+}
+
+tr:nth-child(even){
+    background-color: #f9f9f9;
+}
+/* Este comando pasa de puntero a selector el y pone del color lo que seleccionas */
+tr:hover{
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
